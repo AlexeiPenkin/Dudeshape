@@ -701,6 +701,17 @@ body{
     width: 400px;
     height: 535px;
 }
+.team__card-photo {
+    overflow: hidden;
+    border-radius: 15px 15px 0px 0px;
+}
+.team__card-img {
+    transition: transform 0.2s ease-in;
+}
+.team__card-img:hover {
+    transform: scale(1.3);
+
+}
 .team__card-name {
     position: absolute;
     top: 69px;
@@ -744,6 +755,11 @@ body{
     color: #403E3E;
     margin-bottom: 23px;
 }
+.card-info-email:hover {
+    cursor: pointer;
+    color: #5FAFEF;
+    text-decoration: underline;
+}
 
 /* Partners */
 .partners {
@@ -779,6 +795,13 @@ body{
     display: flex;
     justify-content: space-between;
     gap: 95px;
+}
+.partner__logo {
+    transition: transform 0.2s ease-in;
+}
+.partner__logo:hover {
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 /* Blog */
